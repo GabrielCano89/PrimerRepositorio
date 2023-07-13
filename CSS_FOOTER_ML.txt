@@ -1,0 +1,55 @@
+/* Estilo del footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.elemento-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.info-tarjeta {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.img-footer,
+.imagen-footer {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #1259c3;
+}
+
+.img-footer:hover,
+.imagen-footer:hover {
+  color: #39b54a; /* Cambia el color a verde (#39b54a) al pasar el mouse */
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+p span {
+  font-size: 14px;
+}
+
+/* Estilos adicionales para pantallas más grandes */
+@media (min-width: 768px) {
+
+
+  .elemento-footer {
+    justify-content: space-between;
+  }
+  
+  .info-tarjeta {
+    width: 33.33%;
+    margin-bottom: 0;
+  }
+}
